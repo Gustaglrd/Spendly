@@ -14,6 +14,7 @@ section {
     margin: 15px;
     border-radius: 10px;
     width: 40%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 main {
     max-width: 100%;
@@ -24,4 +25,13 @@ main {
 }
 .dica-ia {
     width: 600px;
+}
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+
+    .dica-ia {
+        width: 90%;
+    }
 }

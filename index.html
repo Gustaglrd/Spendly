@@ -3,21 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
         <title>Spendly</title>
         <link rel="stylesheet" href="Spendly.css">
     </head>
 
     <body>
 
-        <header>
-            <h1>Spendly</h1>
+        <header class="text-center py-4">
+            <h1 class="text-4xl font-bold">Spendly</h1>
             <p>Seu assistente financeiro inteligente</p>
         </header>
 
         <main>
             <section>
                 <h2>Saldo atual</h2>
-                <p><strong>R$ 2.500,00</strong></p>
+                <p class="text-2xl font-bold">
+                    <strong>R$ 2.500,00</strong>
+                </p>
             </section>
 
             <section>
@@ -30,11 +35,9 @@
             <section>
                 <h2>Metas</h2>
                 
-                <p>Casa própria: R$ 100.000,00</p>
-                <p>50%</p>
-
-                <p>Viagem: R$ 5.000,00</p>
-                <p>5%</p>
+                <p>Casa própria: R$ 100.000,00(50%)</p>
+                
+                <p>Viagem: R$ 5.000,00(10%)</p>
 
             </section>
 
@@ -44,7 +47,7 @@
                 <p>Entretenimento: R$ 59,80</p>
             </section>
 
-            <section class="dica-ia">
+            <section class="dica-ia shadow-lg">
                 <h2>Dica da IA</h2>
                 <p>Considere reduzir sua assinatura do Spotify para economizar dinheiro.</p>
             </section>
