@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #333333;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+section {
+    background-color: #2E8B57;
+    color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 40%;
+}
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dica-ia {
+    width: 600px;
+}
